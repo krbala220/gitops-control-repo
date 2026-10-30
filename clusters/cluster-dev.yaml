@@ -1,9 +1,11 @@
 apiVersion: v1
-kind:ConfigMap
+kind: ConfigMap
 metadata:
-  name: cluster-config
+  name: cluster-config 
   namespace: default
 data:
   cluster-name: "dev-cluster"
   environment: "development"
   release-sha: "pending"
+  owner: "platform-team"
+  region: "us-east-1"
