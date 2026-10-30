@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: cluster-config
+  namespace: default
+data:
+  cluster-name: "sit-cluster"
+  environment" "sit"
+  release-sha: "pending"
