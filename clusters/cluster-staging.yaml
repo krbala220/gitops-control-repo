@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: cluster-config-staging
+  namespace: default
+data:
+  cluster-name: "staging-cluster"
+  environment: "staging"
+  release-sha: "pending"
