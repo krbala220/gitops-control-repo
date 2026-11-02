@@ -6,6 +6,7 @@ metadata:
 data:
   cluster-name: "staging-cluster"
   environment: "staging"
-  release-sha: "pending"
+  release-tag: "v1.0.0"
+  release-sha: "345587aa8556b8c307c391bd400998f5c4a9fd87"
   owner: "platform-team"
   region: "us-east-1"

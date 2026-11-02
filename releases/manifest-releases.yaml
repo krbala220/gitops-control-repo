@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: manifest-releases
+  namespace: gitops-control
+data:
+  # Map release tags to their commit SHAs
+  v1.0.0: "345587aa8556b8c307c391bd400998f5c4a9fd87"
+  repo-url: "https://github.com/krbala220/gitops-manifest-repo"
